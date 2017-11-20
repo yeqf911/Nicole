@@ -5,5 +5,6 @@ module API
     prefix :api
 
     mount ::API::Authors
+    mount ::API::Articles
   end
 end
